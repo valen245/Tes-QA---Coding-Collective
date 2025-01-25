@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Service Tes permintaan perbaikan mesin kasirFarmagitechs  Januari26 Januari 2025 0314</name>
+   <tag></tag>
+   <elementGuidId>38355a1f-066c-4b77-b02e-9a5651001239</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div[2]/div/div[2]/div/form/div/div/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-md-10</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>efeffd7f-1538-4e9a-9e33-547777887382</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-md-10</value>
+      <webElementGuid>b0400225-e752-4148-bb10-d622f6274e80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>[ Service ]Tes permintaan perbaikan mesin kasirFarmagitechs | Januari26 Januari 2025 03:14</value>
+      <webElementGuid>fdaae454-29a2-401f-870e-ec6dd480eb32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-page&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/form[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;mb-3 row&quot;]/div[@class=&quot;col-md-10&quot;]</value>
+      <webElementGuid>b4886b22-89f6-4b3e-99fa-c8dd9074428e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[2]/div/div[2]/div/form/div/div/div[3]/div</value>
+      <webElementGuid>880375a0-19fa-409a-ab93-8fb2aaa3128b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Permintaan Pelayanan'])[1]/following::div[14]</value>
+      <webElementGuid>a183627c-0976-428e-9368-0270361be4e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail'])[1]/following::div[14]</value>
+      <webElementGuid>e0eaeca7-ee3b-4fbd-89c2-55824fb634d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div[3]/div</value>
+      <webElementGuid>2bf2088a-de01-4456-9048-0541db1b18c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '[ Service ]Tes permintaan perbaikan mesin kasirFarmagitechs | Januari26 Januari 2025 03:14' or . = '[ Service ]Tes permintaan perbaikan mesin kasirFarmagitechs | Januari26 Januari 2025 03:14')]</value>
+      <webElementGuid>43886a7b-0a6a-4a62-80dc-8deb82daabb1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

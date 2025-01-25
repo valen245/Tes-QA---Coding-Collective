@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ini menguji flow tambah permintaan pelayanan</description>
+   <name>TC01 - Test Tambah Permintaan Pelayanan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>288d5b0e-ed67-4871-8f96-1bcef9a3d150</testCaseGuid>
+</TestCaseEntity>

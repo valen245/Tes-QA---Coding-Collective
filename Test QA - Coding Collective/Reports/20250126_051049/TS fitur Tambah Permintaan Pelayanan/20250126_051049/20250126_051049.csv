@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS fitur Tambah Permintaan Pelayanan,Chrome 132.0.0.0,Ini merupakan kumpulan test case mengenai fitur Tambah Permintaan Pelayanan,,26-01-2025 05:11:09,26-01-2025 05:13:30,"2m - 21,250s",FAILED
+,,,,,,,
+Test Cases/TC01 - Test Tambah Permintaan Pelayanan,Chrome 132.0.0.0,Test case ini menguji flow tambah permintaan pelayanan,,26-01-2025 05:11:09,26-01-2025 05:12:51,"1m - 41,081s",FAILED
+"openBrowser(""https://evoluz.farmagitechs.co.id/"")",Chrome 132.0.0.0,,,26-01-2025 05:11:11,26-01-2025 05:11:25,"13,727s",PASSED
+"input_judul = ""Permintaan Perbaikan Monitor""",Chrome 132.0.0.0,,,26-01-2025 05:11:25,26-01-2025 05:11:25,"0,010s",PASSED
+"setText(findTestObject(""Page_Login - Evoluz/input_Pengguna_nameOrEmail""), ""januari"")",Chrome 132.0.0.0,,,26-01-2025 05:11:25,26-01-2025 05:11:27,"1,976s",PASSED
+"setText(findTestObject(""Page_Login - Evoluz/input_Kata Sandi_password""), ""januari"")",Chrome 132.0.0.0,,,26-01-2025 05:11:27,26-01-2025 05:11:28,"0,874s",PASSED
+"click(findTestObject(""Page_Login - Evoluz/button_Masuk""))",Chrome 132.0.0.0,,,26-01-2025 05:11:28,26-01-2025 05:11:29,"0,687s",PASSED
+"click(findTestObject(""Page_Evoluz by Farmagitechs/span_Permintaan Pelayanan""))",Chrome 132.0.0.0,,,26-01-2025 05:11:29,26-01-2025 05:11:33,"4,504s",PASSED
+"click(findTestObject(""Page_Evoluz by Farmagitechs/button_Tambah Permintaan Pelayanan""))",Chrome 132.0.0.0,,,26-01-2025 05:11:33,26-01-2025 05:11:36,"2,825s",PASSED
+"waitForElementPresent(findTestObject(""Page_Evoluz by Farmagitechs/input_(max 100 karakter)_billing_requestService""), 10)",Chrome 132.0.0.0,,,26-01-2025 05:11:36,26-01-2025 05:11:40,"4,236s",PASSED
+"setText(findTestObject(""Page_Evoluz by Farmagitechs/input_(max 100 karakter)_billing_requestService""), input_judul)",Chrome 132.0.0.0,,,26-01-2025 05:11:40,26-01-2025 05:11:41,"1,251s",PASSED
+driver = getWebDriver(),Chrome 132.0.0.0,,,26-01-2025 05:11:41,26-01-2025 05:11:41,"0,090s",PASSED
+js = driver,Chrome 132.0.0.0,,,26-01-2025 05:11:41,26-01-2025 05:11:41,"0,012s",PASSED
+"js.executeScript(""document.querySelector('input[type=""file""]').style.display = 'block';"")",Chrome 132.0.0.0,,,26-01-2025 05:11:41,26-01-2025 05:11:42,"0,141s",PASSED
+"uploadFile(findTestObject(""Object Repository/Page_Evoluz by Farmagitechs/label_Upload2""), ""E:\kerja\gambar\komputer.jpg"")",Chrome 132.0.0.0,,,26-01-2025 05:11:42,26-01-2025 05:11:42,"0,674s",PASSED
+delay(5),Chrome 132.0.0.0,,,26-01-2025 05:11:42,26-01-2025 05:11:48,"5,263s",PASSED
+"verifyElementPresent(findTestObject(""Page_Evoluz by Farmagitechs/img""), 0)",Chrome 132.0.0.0,,,26-01-2025 05:11:48,26-01-2025 05:11:48,"0,469s",PASSED
+"setText(findTestObject(""Page_Evoluz by Farmagitechs/p_Increase indent_ck-placeholder""), ""Permintaan perbaikan komputer rusak "")",Chrome 132.0.0.0,,,26-01-2025 05:11:48,26-01-2025 05:11:50,"2,227s",PASSED
+delay(10),Chrome 132.0.0.0,,,26-01-2025 05:11:50,26-01-2025 05:12:00,"10,025s",PASSED
+"click(findTestObject(""Page_Evoluz by Farmagitechs/button_Kirim""))",Chrome 132.0.0.0,,,26-01-2025 05:12:00,26-01-2025 05:12:12,"11,469s",PASSED
+delay(3),Chrome 132.0.0.0,,,26-01-2025 05:12:12,26-01-2025 05:12:15,"3,017s",PASSED
+"verifyElementPresent(findTestObject(""Page_Evoluz by Farmagitechs/div_Service Tes permintaan perbaikan mesin kasirFarmagitechs  Januari26 Januari 2025 0314""), 0)",Chrome 132.0.0.0,,,26-01-2025 05:12:15,26-01-2025 05:12:16,"1,375s",PASSED
+"judul = getText(findTestObject(""Object Repository/Page_Evoluz by Farmagitechs/h4_Tes permintaan perbaikan mesin kasir""))",Chrome 132.0.0.0,,,26-01-2025 05:12:16,26-01-2025 05:12:17,"0,427s",PASSED
+"click(findTestObject(""Page_Evoluz by Farmagitechs/i_Kembali_mdi mdi-arrow-left me-1""))",Chrome 132.0.0.0,,,26-01-2025 05:12:17,26-01-2025 05:12:51,"33,930s",FAILED
+,,,,,,,
+Test Cases/TC02 - Test Tambah Permintaan Pelayanan Negative Test,Chrome 132.0.0.0,Ini Merupakan test untuk menguji handling form tambah jika field judul di kosongkan,,26-01-2025 05:12:51,26-01-2025 05:13:30,"39,543s",PASSED
+"openBrowser(""https://evoluz.farmagitechs.co.id/"")",Chrome 132.0.0.0,,,26-01-2025 05:12:51,26-01-2025 05:13:02,"10,134s",PASSED
+"setText(findTestObject(""Page_Login - Evoluz/input_Pengguna_nameOrEmail""), ""januari"")",Chrome 132.0.0.0,,,26-01-2025 05:13:02,26-01-2025 05:13:03,"1,416s",PASSED
+"setText(findTestObject(""Page_Login - Evoluz/input_Kata Sandi_password""), ""januari"")",Chrome 132.0.0.0,,,26-01-2025 05:13:03,26-01-2025 05:13:04,"0,839s",PASSED
+"click(findTestObject(""Page_Login - Evoluz/button_Masuk""))",Chrome 132.0.0.0,,,26-01-2025 05:13:04,26-01-2025 05:13:04,"0,490s",PASSED
+delay(3),Chrome 132.0.0.0,,,26-01-2025 05:13:04,26-01-2025 05:13:07,"3,014s",PASSED
+"click(findTestObject(""Page_Evoluz by Farmagitechs/span_Permintaan Pelayanan""))",Chrome 132.0.0.0,,,26-01-2025 05:13:07,26-01-2025 05:13:08,"0,497s",PASSED
+"click(findTestObject(""Page_Evoluz by Farmagitechs/button_Tambah Permintaan Pelayanan""))",Chrome 132.0.0.0,,,26-01-2025 05:13:08,26-01-2025 05:13:10,"2,041s",PASSED
+delay(3),Chrome 132.0.0.0,,,26-01-2025 05:13:10,26-01-2025 05:13:13,"3,016s",PASSED
+"click(findTestObject(""Page_Evoluz by Farmagitechs/button_Kirim""))",Chrome 132.0.0.0,,,26-01-2025 05:13:13,26-01-2025 05:13:29,"16,254s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Evoluz by Farmagitechs/div_Judul usulan harus diisi""), 0)",Chrome 132.0.0.0,,,26-01-2025 05:13:29,26-01-2025 05:13:30,"0,457s",PASSED
+"message = getText(findTestObject(""Object Repository/Page_Evoluz by Farmagitechs/div_Judul usulan harus diisi""))",Chrome 132.0.0.0,,,26-01-2025 05:13:30,26-01-2025 05:13:30,"0,402s",PASSED
+"if (!(message.equals(""Judul usulan harus diisi"")))",Chrome 132.0.0.0,,,26-01-2025 05:13:30,26-01-2025 05:13:30,"0,057s",PASSED
+else,Chrome 132.0.0.0,,,26-01-2025 05:13:30,26-01-2025 05:13:30,"0,103s",PASSED
